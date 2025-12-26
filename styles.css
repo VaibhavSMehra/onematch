@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #F5F3EF;
+  color: #1E1E1E;
+}
+
+.container {
+  max-width: 1040px;
+  padding: 80px 24px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.15;
+}
+
+.subtext {
+  font-size: 1.1rem;
+  color: #4A4A4A;
+  margin: 24px 0;
+}
+
+.highlight {
+  color: #7A2E3A;
+}
+
+.cta {
+  background: #7A2E3A;
+  color: white;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.how-it-works {
+  padding-top: 96px;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 48px;
+  margin-top: 48px;
+}
+
+.step small {
+  color: #7A2E3A;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+}
+
+footer {
+  margin-top: 120px;
+  text-align: center;
+  color: #6A6A6A;
+}
