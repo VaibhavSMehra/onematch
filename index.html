@@ -1,61 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>One Meaningful Match</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
 <body>
-  <main class="container">
+  <main class="page">
 
-    <section class="hero">
-      <h1>
-        <span class="highlight">One meaningful match.</span><br />
-        On your campus.
-      </h1>
-      <p class="subtext">
-        No swiping. No games.<br />
-        Just one carefully chosen introduction.
-      </p>
-      <button class="cta">Join the February Match</button>
+    <section class="hero section" id="top">
+      <div class="hero-inner reveal">
+        <h1 class="hero-title">
+          <span class="accent">One meaningful match.</span><br />
+          <span class="muted">On your campus.</span>
+        </h1>
+
+        <div class="hairline"></div>
+
+        <p class="hero-subtext">
+          No swiping. No games.<br />
+          Just one carefully chosen introduction.
+        </p>
+
+        <a class="cta" href="#how">Join the February Match</a>
+      </div>
     </section>
 
-    <section class="how-it-works">
-      <h2>How it works</h2>
+    <div class="section-divider"></div>
 
-      <div class="steps">
+    <section class="how section" id="how">
+      <h2 class="section-title reveal">How it works</h2>
+
+      <div class="steps reveal">
         <div class="step">
-          <small>STEP 1</small>
-          <h3>Tell us about yourself</h3>
-          <p>
+          <div class="step-top">
+            <span class="step-label">STEP 1</span>
+            <span class="step-line"></span>
+          </div>
+          <h3 class="step-title">Tell us about yourself</h3>
+          <p class="step-text">
             Answer a short, thoughtful questionnaire about who you are and what you value.
           </p>
+          <div class="step-bottom"></div>
         </div>
 
-        <div class="step">
-          <small>STEP 2</small>
-          <h3>We find your match</h3>
-          <p>
-            Our system looks for <span class="highlight">one person on your campus</span>
-            with the strongest overall compatibility.
+        <div class="step step-middle">
+          <div class="step-top">
+            <span class="step-label">STEP 2</span>
+            <span class="step-line"></span>
+          </div>
+          <h3 class="step-title">We find your match</h3>
+          <p class="step-text">
+            Our system looks for <span class="accent">one person on your campus</span>
+            with the strongest overall compatibility — interests, intent, and attraction.
           </p>
+          <div class="step-bottom"></div>
         </div>
 
         <div class="step">
-          <small>STEP 3</small>
-          <h3>One reveal. February 14.</h3>
-          <p>
+          <div class="step-top">
+            <span class="step-label">STEP 3</span>
+            <span class="step-line"></span>
+          </div>
+          <h3 class="step-title">One reveal. February 14.</h3>
+          <p class="step-text">
             If there’s a mutual match, you’ll be able to reveal it on Valentine’s Day.
           </p>
+          <div class="step-bottom"></div>
         </div>
       </div>
     </section>
 
-    <footer>
-      Built for students who want intention over noise.
+    <div class="section-divider"></div>
+
+    <footer class="footer section">
+      <p class="footer-text reveal">Built for students who want intention over noise.</p>
+      <a class="footer-link reveal" href="#top">Get notified when matching opens</a>
     </footer>
 
   </main>
+
+  <script src="script.js"></script>
 </body>
-</html>
