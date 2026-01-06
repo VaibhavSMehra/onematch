@@ -300,3 +300,61 @@ body{
   width: 100%;
   text-align: center;   /* centers inline/inline-flex children */
 }
+
+.waitlist{
+  margin-top: 28px;
+  text-align: center;
+}
+
+.waitlist-label{
+  display: block;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-weight: 600;
+  color: rgba(30,30,30,0.78);
+  margin-bottom: 12px;
+}
+
+.waitlist-row{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.waitlist input[type="email"]{
+  width: min(420px, 92vw);
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(30,30,30,0.16);
+  background: rgba(255,255,255,0.55);
+  outline: none;
+  font-size: 15px;
+}
+
+.waitlist input[type="email"]:focus{
+  border-color: rgba(122,46,58,0.45);
+  box-shadow: 0 0 0 4px rgba(122,46,58,0.12);
+}
+
+.waitlist-btn{
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(122,46,58,0.35);
+  background: transparent;
+  color: rgba(122,46,58,0.95);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease;
+}
+
+.waitlist-btn:hover{
+  background: rgba(122,46,58,0.08);
+  transform: translateY(-1px);
+}
+
+.waitlist-note{
+  margin-top: 12px;
+  color: rgba(30,30,30,0.58);
+  font-size: 13px;
+  line-height: 1.5;
+}
